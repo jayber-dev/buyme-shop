@@ -13,8 +13,8 @@
     <?php
         include './serve/navbar.php';
     ?>
-    <a href="lala.php"> lala</a>
-    yabalulu-yabadabadu
+    <a href="lala.php"> yabalulu-yabadabadu</a>
+    
 
     <?php
         include './serve/footer.php'
