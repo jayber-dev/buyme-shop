@@ -1,5 +1,5 @@
 <nav>
     <div>
-        <?php echo "hello"; ?>
+        <?php echo "im a nav bar"; ?>
     </div>
 </nav>
