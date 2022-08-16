@@ -20,7 +20,5 @@
         include './serve/footer.php'
     ?>
        
-    <!-- //     include 'footer.php';      -->
-    <!-- // ?> -->
 </body>
 </html>
