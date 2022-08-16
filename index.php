@@ -17,6 +17,10 @@
     ?>
     content
     <br>
+    lalala
+    <br>
+    lalala
+    <br>
     <a href="./serve/item.php"> Item page</a>
     <br>
     <a href="./serve/product.php"> Product page</a>
