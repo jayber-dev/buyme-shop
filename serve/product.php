@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        include '/navbar.php';
+        include './navbar.php';
     ?>
 
     <div class="product">
@@ -33,7 +33,7 @@
     </div>
 
     <?php
-        include '/footer.php';
+        include './footer.php';
     ?>
 </body>
 </html>
