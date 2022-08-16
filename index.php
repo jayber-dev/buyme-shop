@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p>newnewnewnew</p>
     <?php
         include './serve/navbar.php';
     ?>
