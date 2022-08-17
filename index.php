@@ -11,7 +11,7 @@
     <title>Buyme</title>
 </head>
 <body>
-    
+
     <?php
         include './serve/navbar.php';
     ?>
