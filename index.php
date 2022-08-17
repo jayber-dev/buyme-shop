@@ -19,9 +19,7 @@
     <?php
         include './serve/navbar.php';
     ?>
-    <?php
-        include './serve/navbar.php';
-    ?>
+    
     <?php
         include './serve/search.php'
     ?>
