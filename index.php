@@ -9,19 +9,33 @@
     <script src="./static/js/index.js" defer></script>
     <!-- Stylesheets links internal and external -->
     <link rel="stylesheet" href="/static/css/index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/navbar.css">
+    <link rel="stylesheet" href="/static/css/footer.css">
+    <title>Buyme</title>
 </head>
 <body>
-    
+
     <?php
         include './serve/navbar.php';
     ?>
+
 
     <?php
         include './serve/search.php'
     ?>
 
     <a href="lala.php"> yabalulu-yabadabadu</a>
+
+    content
+    <br>
+    lalala
+    <br>
+    lalala
+    <br>
+    <a href="./serve/item.php"> Item page</a>
+    <br>
+    <a href="./serve/product.php"> Product page</a>
+
     
     <?php
         include './serve/footer.php'
