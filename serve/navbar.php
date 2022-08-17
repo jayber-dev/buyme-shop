@@ -1,5 +1,7 @@
 <nav>
     <div class="top-level-nav">
-        <?php echo "im a nav bar"; ?>
+       <h1>so</h1>
+       <h1>lala</h1>
+       <h1>poop</h1>
     </div>
 </nav>
