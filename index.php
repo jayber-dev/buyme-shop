@@ -17,6 +17,10 @@
         include './serve/navbar.php';
     ?>
 
+    <?php
+        include './serve/search.php'
+    ?>
+
     <a href="lala.php"> yabalulu-yabadabadu</a>
     
     <?php
