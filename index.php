@@ -11,11 +11,7 @@
     <link rel="stylesheet" href="/static/css/index.css">
     <link rel="stylesheet" href="/static/css/navbar.css">
     <link rel="stylesheet" href="/static/css/footer.css">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="/static/css/item.css">
-=======
     <link rel="stylesheet" href="/static/css/search-bar.css">
->>>>>>> c177435ce5406fdf406256ad4848097395791eb2
     <title>Buyme</title>
 </head>
 <body>
