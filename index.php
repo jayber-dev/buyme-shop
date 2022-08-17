@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/static/css/index.css">
     <link rel="stylesheet" href="/static/css/navbar.css">
     <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/search-bar.css">
     <title>Buyme</title>
 </head>
 <body>
@@ -18,8 +19,9 @@
     <?php
         include './serve/navbar.php';
     ?>
-
-
+    <?php
+        include './serve/navbar.php';
+    ?>
     <?php
         include './serve/search.php'
     ?>
