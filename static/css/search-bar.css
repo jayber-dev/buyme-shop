@@ -1,0 +1,25 @@
+.form-display {
+    display: flex;
+    justify-content: center;
+}
+
+.search-text-input {
+    border-radius: 5px;
+    height: 25px;
+    width: 80vw;
+    
+}
+
+.search-button {
+    margin-left: 2px;
+    border-radius: 5px;
+    background-color: black;
+    width: 35px;
+    height: 31px;
+}
+
+.search-button-svg {    
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+}
