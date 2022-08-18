@@ -1,10 +1,147 @@
-body {
-    margin: 0;
-    box-sizing: border-box;
+ :root{
+    --primery:  #ffffff;
+    --secondery: #324B4c;
+    --essence1: #068488;
+    --essence2: #00c6cf;
 }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+nav{
+   background-color: var(--secondery);  
+   padding: 0 15px;
+}
+li, a {
+    color: var(--primery);
+    text-decoration: none;
+}
+.menu{
+    list-style-type: none;
+}
+.logo{
+    font-size: 28px;
+    padding: 7.5px 10px 7.5px 0;
+}
+.nav-bar-item{
+    padding: 10px;
+}
+.nav-bar-item button{
+    padding: 9px 5px;
+}
+.nav-bar-item:not(.button):hover, .nav-bar-item :hover::after{
+    color: var(--essence2);
+}
+.nav-bar-item:active{
+    background-color: var(--secondery);
+    border: 1px solid var(--primery);
+    width: 15%;
+    border-radius: 8px;
+}
+/* mobile manu */
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li a{
+    display: block;
+    padding: 12px 5px;
+}
+.toggle{
+    order: 1;
+    font-size: 20px;
+}
+.button{
+     margin-bottom: 20px;
+}
+.nav-bar-item.button{
+    order: 2;
+   
+}
+.nav-bar-item{
+    order: 3;
+    width: 100%;
+    align-items: center;
+
+    /* need to activate and use js */
+    display: none;
+}
+.active .nav-bar-item{
+    display: block;
+}
+
+
+
+/* tablet menu */
+
+@media all and (min-width: 700px){
+
+    .menu{
+        justify-content: center;
+    }
+    .logo{
+        flex: 1;
+    }
+    .nav-bar-item .button{
+        
+        width: auto;
+        order: 1;
+        display: block;
+    }
+    .toggle{
+        flex: 1;
+        text-align: right;
+        order: 2;
+    }
+    .button a{
+        background-color: var(--essence2);
+        border: 1px var(--essence1) solid;
+        
+    }
+    .button.secondery a {
+        background: transparent;
+        border: 1px var(--essence1) solid;
+    }
+    .button a:hover {
+        text-decoration: none;
+    }
+    .button:not(.secondery) a:hover{
+        background: var(--essence2);
+        border-color: var(--essence1);
+    }
+} 
+
+/* desktop menu */
+
+@media all and (min-width: 960px){
+    
+    .nav-bar-item{
+        order: 1;
+        position: absolute;
+        flex-direction: column;
+        width: auto;
+    
+    }
+    .button{
+        order: 2;
+    }
+
+    .toggle{
+        display: none;
+    }
+}  
 
 
 .top-level-nav {
     background-color: antiquewhite;
     height: 50px;
 }
+
