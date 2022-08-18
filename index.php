@@ -19,22 +19,11 @@
     <?php
         include './serve/navbar.php';
     ?>
-<<<<<<< kimk
-=======
-    
->>>>>>> main
+
     <?php
         include './serve/search.php'
     ?>
 
-    <a href="lala.php"> yabalulu-yabadabadu</a>
-
-    content
-    <br>
-    lalala
-    <br>
-    lalala
-    <br>
     <a href="./serve/item.php"> Item page</a>
     <br>
     <a href="./serve/product.php"> Product page</a>
