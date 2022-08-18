@@ -19,6 +19,10 @@
     <?php
         include './serve/navbar.php';
     ?>
+<<<<<<< kimk
+=======
+    
+>>>>>>> main
     <?php
         include './serve/search.php'
     ?>
