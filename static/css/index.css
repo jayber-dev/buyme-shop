@@ -1,3 +1,12 @@
+:root{
+    --primery:  #ffffff;
+    --secondery: #324B4c;
+    --essence1: #068488;
+    --essence2: #00c6cf;
+} 
+
 body {
     margin:0px;
+    
+    background-repeat: no-repeat;
 }
