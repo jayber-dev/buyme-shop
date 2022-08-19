@@ -1,3 +1,7 @@
+.search-bar-container {
+    margin-top: 20px;
+}
+
 .form-display {
     display: flex;
     justify-content: center;
