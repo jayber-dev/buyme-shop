@@ -1,20 +1,73 @@
+body {
+    margin:0;
+    box-sizing: border-box;
+    text-align:center;
+    background-color: #3a9cedb7;
+    color:#ffffff
+}
 
 .product {
     display: flex;
-    margin: 30px;
+    margin: 35px;
+}
+a{
+    color: #ffffff;
+}
+p{
+    font-size: 22px;
+}
+nav{
+    font-size: 24px;
+    background-color: #0f0bf4;
+    padding: 10px;
+}
+#cardREVIEWS{
+    width: 400px;
+    height: 350px;
+    border: 1px solid ;
+    margin: 50px;
+    float: left;
+    background-color: #0f0bf4b5;
+  
+}
+
+footer{
+    font-size: 24px;
+    background-color: #0f0bf4;
+    padding: 10px;
 }
 
 img {
-    border: 2px solid #068488;
-    box-shadow: 0 0 5px 1px #068488;
+    border: 2px solid #0f0bf4;
+    box-shadow: 0 0 5px 1px #0f0bf4;
     max-width: 450px;
-    /* border: 1px solid black; */
+        
 }
+
+
+.checked {
+    color: orange;
+  }
 
 .product-image {
     width: 100%;
 }
+select{
+    font-size: 24px;
+    background-color: #0f0bf49b;
+    padding: 5px;
+}
 
+#btn{
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 35px;
+   background-color: #0f0bf4;
+   color: #ffffff;
+}
+#btn:hover{
+    background-color: chartreuse;
+}
 .item-info {
     width: 55%;
     margin-left: 20px;
