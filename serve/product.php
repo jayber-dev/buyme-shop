@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/static/css/product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    
     <title>Document</title>
 </head>
 <body>
@@ -22,6 +23,7 @@
         </div>
         <div class="item-info">
             <div class="item-details">
+                <br><br><br><br><br>
                 <h1 style="text-align:center ;">גלידה</h1>
 
                 <h2>₪18.90 מחיר מבצע
