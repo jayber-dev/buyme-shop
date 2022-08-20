@@ -1,5 +1,5 @@
 
-<nav>
+<nav class="wow">
 
     <ul class="menu">
             <li class="logo"><a href="#">online shop</a></li>
