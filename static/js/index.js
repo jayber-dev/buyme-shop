@@ -28,9 +28,10 @@ window.addEventListener('scroll', (e) => {
     if(currPos < screenHeight) {
         document.querySelector('.search-and-navbar').style.position = 'fixed'
         document.querySelector('.search-and-navbar').style.width = '100%'
-        document.querySelector('.search-and-navbar').classList = ''
-
+        document.querySelector('.search-and-navbar').classList = "search-and-navbar" 
     } 
-    
-    
+    screenHeight = this.scrollY
+    if(this.scrollY ===0) {
+        document.querySelector('.search-and-navbar').style.position = 'relative'
+    }
 })
