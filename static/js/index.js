@@ -20,15 +20,17 @@ function toggleMenu() {
 // Event Listener 
 toggle.addEventListener('click', toggleMenu, false);
 
+// ---------------------------- navbar-scroll handler -----------------------
+let screenHeight = window.scrollY
 
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-let prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-    let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.querySelector(".menu").style.top = "0";
-    } else {
-        document.querySelector(".menu").style.top = "-50px";
-    }
-    prevScrollpos = currentScrollPos;
-}
+window.addEventListener('scroll', (e) => {
+    let currPos = this.scrollY
+    if(currPos < screenHeight) {
+        document.querySelector('.search-and-navbar').style.position = 'fixed'
+        document.querySelector('.search-and-navbar').style.width = '100%'
+        document.querySelector('.search-and-navbar').classList = ''
+
+    } 
+    
+    
+})

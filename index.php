@@ -15,18 +15,22 @@
     <title>Buyme</title>
 </head>
 <body>
+    <div class="search-and-navbar">
+        <?php
+            include './serve/navbar.php';
+        ?>
 
-    <?php
-        include './serve/navbar.php';
-    ?>
-
-    <?php
-        include './serve/search.php'
-    ?>
-
+        <?php
+            include './serve/search.php'
+        ?> 
+    </div>
+    
+    <div class="example"></div>
+    <h1> wow</h1>
+    <a href="./serve/product.php"> nanasnd</a>
     <a href="./serve/item.php"> Item page</a>
     <br>
-    <a href="./serve/product.php"> Product page</a>
+    
 
     
     <?php

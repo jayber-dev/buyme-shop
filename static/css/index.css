@@ -10,3 +10,11 @@ body {
     
     background-repeat: no-repeat;
 }
+
+.search-and-navbar {
+    scrollbar-color: red;
+}
+
+.example {
+    height: 300vh;
+}
