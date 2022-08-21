@@ -9,10 +9,10 @@
     <script src="./static/js/index.js" defer></script>
     <script src="./static/js/navbar.js" defer></script>
     <!-- Stylesheets links internal and external -->
-    <link rel="stylesheet" href="/static/css/index.css">
-    <link rel="stylesheet" href="/static/css/navbar.css">
-    <link rel="stylesheet" href="/static/css/footer.css">
-    <link rel="stylesheet" href="/static/css/search-bar.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/navbar.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/search-bar.css">
     <title>Buyme</title>
 </head>
 <body>
