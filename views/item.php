@@ -8,13 +8,13 @@
 </head>
 <body>
     <?php 
-    include './serve/navbar.php'
+    include './views/_navbar.php'
     ?>
     
     content
 
     <?php
-    include './serve/footer.php'
+    include './views/_footer.php'
     ?>
 </body>
 </html>
