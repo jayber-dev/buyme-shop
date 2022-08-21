@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/static/css/navbar.css">
     <link rel="stylesheet" href="/static/css/footer.css">
     <link rel="stylesheet" href="/static/css/search-bar.css">
+    <link rel="stylesheet" href="/static/css/signup-form.css">
+    
     <title>Buyme</title>
 </head>
 <body>
