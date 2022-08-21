@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="/static/css/index.css">
     <link rel="stylesheet" href="/static/css/product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="../static/js/navbar.js" defer></script>
     
     <title>Document</title>
 </head>
 <body>
     <?php
-        include './navbar.php';
+        include './_navbar.php';
     ?>
 
 <div class="product">
@@ -128,7 +128,7 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <?php
-        include './footer.php';
+        include './_footer.php';
     ?>
 </body>
 </html>
