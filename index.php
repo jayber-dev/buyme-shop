@@ -27,13 +27,7 @@
     </div>
     
     <div class="example"></div>
-    <h1> wow</h1>
-    <a href="./views/product.php"> nanasnd</a>
-    <a href="./views/item.php"> Item page</a>
-    <br>
-    
-
-    
+       
     <?php
         include './views/_footer.php'
     ?> 

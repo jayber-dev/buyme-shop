@@ -16,6 +16,6 @@ body {
 }
 
 .example {
-    background-color: aquamarine;
+    background-color: var(--primery);
     height: 300vh;
 }
