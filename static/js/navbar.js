@@ -28,12 +28,13 @@ window.addEventListener('scroll', (e) => {
     if(this.scrollY < prevScrollPosition) {
         document.querySelector('.search-and-navbar').style.position = 'fixed'
         document.querySelector('.search-and-navbar').style.width = '100%'
-        document.querySelector('.search-and-navbar').classList = "search-and-navbar" 
+        document.querySelector('.search-and-navbar').classList.add("navbar-rollBack")     
     } else {
         document.querySelector('.search-and-navbar').style.position = 'relative'
+        document.querySelector('.search-and-navbar').classList.remove("navbar-rollBack")
     }
     prevScrollPosition = this.scrollY
-    if(this.scrollY === 0) {
-        document.querySelector('.search-and-navbar').style.position = 'relative'
-    }
+    // if(this.scrollY === 0) {
+    //     document.querySelector('.search-and-navbar').style.position = 'relative'
+    // }
 })
