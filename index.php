@@ -17,24 +17,24 @@
 <body>
     <div class="search-and-navbar">
         <?php
-            include './serve/navbar.php';
+            include './views/navbar.php';
         ?>
 
         <?php
-            include './serve/search.php'
+            include './views/search.php'
         ?> 
     </div>
     
     <div class="example"></div>
     <h1> wow</h1>
-    <a href="./serve/product.php"> nanasnd</a>
-    <a href="./serve/item.php"> Item page</a>
+    <a href="./views/product.php"> nanasnd</a>
+    <a href="./views/item.php"> Item page</a>
     <br>
     
 
     
     <?php
-        include './serve/footer.php'
+        include './views/footer.php'
     ?>
        
 </body>
