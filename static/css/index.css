@@ -16,5 +16,6 @@ body {
 }
 
 .example {
+    background-color: aquamarine;
     height: 300vh;
 }
