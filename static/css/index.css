@@ -19,3 +19,27 @@ body {
     background-color: var(--primery);
     height: 300vh;
 }
+
+.carusel {
+    background-color: cornflowerblue;
+    height: 30vh;
+}
+
+.categories {
+    
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: darkcyan;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.category {
+    flex: 1 0 15%;
+    margin: 20px;
+    max-height: 200px;
+    max-width: 200px;
+    border:1px solid black;
+}
