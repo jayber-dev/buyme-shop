@@ -9,10 +9,19 @@
     <script src="./static/js/index.js" defer></script>
     <script src="./static/js/navbar.js" defer></script>
     <!-- Stylesheets links internal and external -->
+<<<<<<< HEAD
+    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/navbar.css">
+    <link rel="stylesheet" href="/static/css/footer.css">
+    <link rel="stylesheet" href="/static/css/search-bar.css">
+    <link rel="stylesheet" href="/static/css/signup-form.css">
+    
+=======
     <link rel="stylesheet" href="./static/css/index.css">
     <link rel="stylesheet" href="./static/css/navbar.css">
     <link rel="stylesheet" href="./static/css/footer.css">
     <link rel="stylesheet" href="./static/css/search-bar.css">
+>>>>>>> cdac25e955dfdae97b87c28c4b1cf8b9e93dbb99
     <title>Buyme</title>
 </head>
 <body>
