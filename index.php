@@ -6,22 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Script tags to external services -->
     <script src="https://kit.fontawesome.com/4d1964c718.js" crossorigin="anonymous"></script>
-    <script src="./static/js/index.js" defer></script>
+    <script src="./static/js/index.js" defer type="module"></script>
+    
     <script src="./static/js/navbar.js" defer></script>
     <!-- Stylesheets links internal and external -->
-<<<<<<< HEAD
     <link rel="stylesheet" href="/static/css/index.css">
     <link rel="stylesheet" href="/static/css/navbar.css">
     <link rel="stylesheet" href="/static/css/footer.css">
     <link rel="stylesheet" href="/static/css/search-bar.css">
     <link rel="stylesheet" href="/static/css/signup-form.css">
     
-=======
-    <link rel="stylesheet" href="./static/css/index.css">
-    <link rel="stylesheet" href="./static/css/navbar.css">
-    <link rel="stylesheet" href="./static/css/footer.css">
-    <link rel="stylesheet" href="./static/css/search-bar.css">
->>>>>>> cdac25e955dfdae97b87c28c4b1cf8b9e93dbb99
     <title>Buyme</title>
 </head>
 <body>
@@ -35,7 +29,13 @@
         ?>  
     </div>
     
-    <div class="example"></div>
+    <div class="carusel">
+        <h1 class="h1">carusel</h1>
+    </div>
+    <div class="categories">
+        
+    </div>
+    
        
     <?php
         include './views/_footer.php'
