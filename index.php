@@ -9,34 +9,30 @@
     <script src="./static/js/index.js" defer></script>
     <script src="./static/js/navbar.js" defer></script>
     <!-- Stylesheets links internal and external -->
-    <link rel="stylesheet" href="../static/css/index.css">
-    <link rel="stylesheet" href="../static/css/navbar.css">
-    <link rel="stylesheet" href="../static/css/footer.css">
-    <link rel="stylesheet" href="../static/css/search-bar.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="./static/css/navbar.css">
+    <link rel="stylesheet" href="./static/css/footer.css">
+    <link rel="stylesheet" href="./static/css/search-bar.css">
     <title>Buyme</title>
 </head>
 <body>
     <div class="search-and-navbar">
-        <!-- <?php
+        <?php
             include './views/_navbar.php';
         ?>
 
         <?php
             include './views/_search.php'
-        ?>  -->
+        ?>  
     </div>
     
     <div class="example"></div>
-    <h1> wow</h1>
-    <a href="./views/product.php"> nanasnd</a>
-    <a href="./views/item.php"> Item page</a>
-    <br>
-    
-
-    
-    <!-- <?php
+       
+    <?php
         include './views/_footer.php'
-    ?> -->
+    ?> 
+
+
        
 </body>
 </html>

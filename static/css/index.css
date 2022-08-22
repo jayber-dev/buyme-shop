@@ -16,5 +16,6 @@ body {
 }
 
 .example {
+    background-color: var(--primery);
     height: 300vh;
 }

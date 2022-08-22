@@ -1,0 +1,4 @@
+footer {
+    background-image: linear-gradient(var(--primery), var(--secondery) );
+    height: 200px;
+}
