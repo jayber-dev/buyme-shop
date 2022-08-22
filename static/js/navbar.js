@@ -24,20 +24,25 @@ toggle.addEventListener('click', toggleMenu, false);
 let prevScrollPosition = window.scrollY
 
 window.addEventListener('scroll', (e) => {
-    
-    if(this.scrollY < prevScrollPosition) {
-        document.querySelector('.search-and-navbar').style.position = 'fixed'
-        document.querySelector('.search-and-navbar').style.width = '100%'
-        document.querySelector('.search-and-navbar').classList.remove("navbar-rollup")   
-        document.querySelector('.search-and-navbar').classList.add("navbar-rollBack") 
-         
-    } else {
-        document.querySelector('.search-and-navbar').style.position = 'fixed'
-        document.querySelector('.search-and-navbar').style.width = '100%'
-        document.querySelector('.search-and-navbar').classList.remove("navbar-rollBack")
-        document.querySelector('.search-and-navbar').classList.add("navbar-rollup")
+    if(this.scrollY > 80){
+        if(this.scrollY < prevScrollPosition) { // scroll down event
+            document.querySelector('.search-and-navbar').style.position = 'fixed'
+            document.querySelector('.search-and-navbar').style.width = '100%'
+            document.querySelector('.search-and-navbar').classList.remove("navbar-rollup")   
+            document.querySelector('.search-and-navbar').classList.add("navbar-rollBack") 
+            
+        } else { //scroll up event
+            document.querySelector('.search-and-navbar').style.position = 'fixed'
+            document.querySelector('.search-and-navbar').style.width = '100%'
+            document.querySelector('.search-and-navbar').classList.remove("navbar-rollBack")
+            document.querySelector('.search-and-navbar').classList.add("navbar-rollup")
+            
+        }
 
     }
+    // TODO:fix jumping issue
+    // this if statement returns the elemnet from being fixed to relative
+    // that what make the jumpy view of the carusel it gets back to its origins
+    
     prevScrollPosition = this.scrollY
-   
 })

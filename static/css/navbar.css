@@ -24,7 +24,7 @@ animation: rolldown 0.9s;
 height: 0px;
 background-color: black;       
 overflow: hidden;
-animation: rollup 0.9s;
+animation: rollup 1.3s;
 }
 
 @keyframes rollup {
@@ -38,7 +38,7 @@ body {
 }
 
 nav {
-
+    
     background: var(--secondery);
     padding: 0 15px;
 }

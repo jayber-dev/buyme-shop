@@ -12,24 +12,26 @@ body {
 }
 
 .search-and-navbar {
+    position: fixed;
+    width: 100%;
     scrollbar-color: red;
 }
 
-.example {
-    background-color: var(--primery);
-    height: 300vh;
+.carusel {
+    background-color: white;
+    height: 60vh; 
 }
 
-.carusel {
-    background-color: cornflowerblue;
-    height: 30vh;
+.h1 {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 200px;
 }
 
 .categories {
-    
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 150vh;
     background-color: darkcyan;
     align-content: stretch;
     align-items: stretch;
