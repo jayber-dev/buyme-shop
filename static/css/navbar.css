@@ -13,7 +13,7 @@
 
 .navbar-rollBack {
 overflow: hidden;
-animation: rolldown 1s;
+animation: rolldown 0.9s;
 }
 
 @keyframes rolldown {
@@ -24,7 +24,7 @@ animation: rolldown 1s;
 height: 0px;
 background-color: black;       
 overflow: hidden;
-animation: rollup 1s;
+animation: rollup 0.9s;
 }
 
 @keyframes rollup {
