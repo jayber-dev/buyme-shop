@@ -7,7 +7,6 @@
        include './views/main.php';
     });
 
-    
     $router->run();
 
     
