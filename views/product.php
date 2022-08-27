@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/4d1964c718.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/static/css/navbar.css">
     <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/search-bar.css">
     <link rel="stylesheet" href="/static/css/product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../static/js/navbar.js" defer></script>
@@ -15,7 +16,10 @@
 </head>
 <body>
     <?php
-        include './_navbar.php';
+        include './views/_navbar.php';
+    ?>
+    <?php
+        include './views/_search.php';
     ?>
 
 <section class="product">
