@@ -17,72 +17,113 @@
         include './_navbar.php';
     ?>
 
-<div class="product">
-        <div class="image-info">
-            <img src="../static/images/ice-cream.jpg" alt="product" class="product-image">
-        </div>
-        <div class="item-info">
-            <div class="item-details">
-                <br><br><br><br><br>
-                <h1 style="text-align:center ;">גלידה</h1>
+<section class="product">
+	<div class="product__photo">
+		<div class="photo-container">
+			<div class="photo-main">
+				<div class="controls">
+					<i class="material-icons">share</i>
+					<i class="material-icons">favorite_border</i>
+				</div>
+				<img src="https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png" alt="green apple slice">
+			</div>
+			<div class="photo-album">
+				<ul>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="green apple"></li>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303532/codepen/delicious-apples/half-apple.png" alt="half apple"></li>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303160/codepen/delicious-apples/green-apple-flipped.png" alt="green apple"></li>
+					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303708/codepen/delicious-apples/apple-top.png" alt="apple top"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="product__info">
+		<div class="title">
+			<h1>Delicious Apples</h1>
+			<span>COD: 45999</span>
+		</div>
+		<div class="price">
+			R$ <span>7.93</span>
+		</div>
+		<div class="variant">
+			<h3>SELECT A COLOR</h3>
+			<ul>
+				<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="green apple"></li>
+				<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="yellow apple"></li>
+				<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="orange apple"></li>
+				<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="red apple"></li>
+			</ul>
+		</div>
+		<div class="description">
+			<h3>BENEFITS</h3>
+			<ul>
+				<li>Apples are nutricious</li>
+				<li>Apples may be good for weight loss</li>
+				<li>Apples may be good for bone health</li>
+				<li>They're linked to a lowest risk of diabetes</li>
+			</ul>
+		</div>
+		<button class="buy--btn">ADD TO CART</button>
+	</div>
+</section>
 
-                <h2>₪18.90 מחיר מבצע
-
-                </h2>
-
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <h3> מגנום שוקולד</h3>
+<footer>
+	<p>Design from <a href="https://dribbble.com/shots/5216438-Daily-UI-012">dribbble shot</a> of <a href="https://dribbble.com/rodrigorramos">Rodrigo Ramos</a></p>
+</footer>
 
 
-                <h4>באיזה טעם תבחר ?</h4>
-                <button id="btnchoice">שוקלד חלב</button>
-                <button>שוקולד מריר</button>
-                <button>שוקולד לבן</button>
-                <button>שוקולד פיסטוק</button>
-                <br><br>
-                <h4>מארז של כמה ?</h4>
-                <button id="btnchoice"> 6</button>
-                <button>12</button>
-                <button>28 </button>
-                <button>22 </button>
-                <input type="number" placeholder="כמות ->" min="6">
-                <br><br>
-                <h4>ניתן להוסיף להזמנה</h4>
-                <button id="btnchoice"> בלה</button>
-                <button>בלה בלה</button>
-                <button>בלה בלה</button>
-                <button>בהל בלה</button>
-                <br><br>
-                <button id="btn"><a href="./../CssNeon/index.html">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span> Add To Cart
-                </a></button>
-            </div>
-        </div>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
     <br><br><br><br><br>
-    <hr style="width:80% ;">
+    <hr style="width:100% ;">
     <div>
         <h1 style="text-align:center ;">item details</h1>
         <br><br><br><br><br>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ab eligendi vel eveniet totam, eius et commodi molestiae. Quibusdam corrupti tempora ratione ea non ducimus itaque, ut consectetur laboriosam. Aperiam?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Enim rerum fugiat, pariatur deleniti dolorem inventore assumenda voluptatem reiciendis ipsam molestias fugit aspernatur accusamus fuga optio itaque? Magnam accusantium quaerat Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Dignissimos deleniti ad corrupti obcaecati, quibusdam laboriosam reprehenderit expedita laudantium sapiente adipisci necessitatibus consectetur, exercitationem, iusto magnam! Optio quidem cum dignissimos esse!Loremlor Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Provident consectetur id non consequuntur velit adipisci. Voluptate magni nemo voluptatem quidem nisi, eius id vel soluta beatae temporibus! Hic, porro neque Lorem ipsum dolor, sit amet consectetur adipisicing
-            elit. Ipsam ut perferendis vel minus voluptatum molestias quas odit labore cupiditate nulla officia asperiores, necessitatibus sed laudantium maxime magnam voluptatem excepturi at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            quam autem est corrupti quis numquam placeat mollitia alias dolore sit veniam eos explicabo animi, harum quibusdam porro deleniti exercitationem tempore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolor laudantium
+        <p id="details">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ab eligendi vel eveniet totam, eius et commodi molestiae.  <br> Quibusdam corrupti tempora ratione ea non ducimus itaque, ut consectetur laboriosam. Aperiam?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. <br> Enim rerum fugiat, pariatur deleniti dolorem inventore assumenda voluptatem reiciendis ipsam molestias fugit aspernatur accusamus fuga optio itaque? Magnam accusantium quaerat Lorem, <br> ipsum dolor sit amet consectetur adipisicing
+            elit. <br> Dignissimos deleniti ad corrupti obcaecati, quibusdam laboriosam reprehenderit expedita laudantium sapiente adipisci necessitatibus consectetur, <br> exercitationem, iusto magnam! Optio quidem cum dignissimos esse!Loremlor Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Provident consectetur id non consequuntur velit adipisci. <br> Voluptate magni nemo voluptatem quidem nisi, eius id vel soluta beatae temporibus! Hic, porro neque Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. <br> Ipsam ut perferendis vel minus voluptatum molestias quas odit labore cupiditate nulla officia asperiores, necessitatibus sed laudantium maxime magnam voluptatem excepturi at! Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Tempora
+            quam autem est corrupti quis numquam placeat mollitia alias dolore sit veniam eos explicabo animi,<br> harum quibusdam porro deleniti exercitationem tempore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Aspernatur dolor laudantium
+            incidunt voluptatem, nisi dolorum repellat, natus accusantium eligendi, delectus sunt aliquid maxime architecto debitis suscipit iure reprehenderit porro excepturi.</p>
+        <p id="details">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ab eligendi vel eveniet totam, eius et commodi molestiae.  <br> Quibusdam corrupti tempora ratione ea non ducimus itaque, ut consectetur laboriosam. Aperiam?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. <br> Enim rerum fugiat, pariatur deleniti dolorem inventore assumenda voluptatem reiciendis ipsam molestias fugit aspernatur accusamus fuga optio itaque? Magnam accusantium quaerat Lorem, <br> ipsum dolor sit amet consectetur adipisicing
+            elit. <br> Dignissimos deleniti ad corrupti obcaecati, quibusdam laboriosam reprehenderit expedita laudantium sapiente adipisci necessitatibus consectetur, <br> exercitationem, iusto magnam! Optio quidem cum dignissimos esse!Loremlor Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Provident consectetur id non consequuntur velit adipisci. <br> Voluptate magni nemo voluptatem quidem nisi, eius id vel soluta beatae temporibus! Hic, porro neque Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. <br> Ipsam ut perferendis vel minus voluptatum molestias quas odit labore cupiditate nulla officia asperiores, necessitatibus sed laudantium maxime magnam voluptatem excepturi at! Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Tempora
+            quam autem est corrupti quis numquam placeat mollitia alias dolore sit veniam eos explicabo animi,<br> harum quibusdam porro deleniti exercitationem tempore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Aspernatur dolor laudantium
+            incidunt voluptatem, nisi dolorum repellat, natus accusantium eligendi, delectus sunt aliquid maxime architecto debitis suscipit iure reprehenderit porro excepturi.</p>
+        <p id="details">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ab eligendi vel eveniet totam, eius et commodi molestiae.  <br> Quibusdam corrupti tempora ratione ea non ducimus itaque, ut consectetur laboriosam. Aperiam?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. <br> Enim rerum fugiat, pariatur deleniti dolorem inventore assumenda voluptatem reiciendis ipsam molestias fugit aspernatur accusamus fuga optio itaque? Magnam accusantium quaerat Lorem, <br> ipsum dolor sit amet consectetur adipisicing
+            elit. <br> Dignissimos deleniti ad corrupti obcaecati, quibusdam laboriosam reprehenderit expedita laudantium sapiente adipisci necessitatibus consectetur, <br> exercitationem, iusto magnam! Optio quidem cum dignissimos esse!Loremlor Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Provident consectetur id non consequuntur velit adipisci. <br> Voluptate magni nemo voluptatem quidem nisi, eius id vel soluta beatae temporibus! Hic, porro neque Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. <br> Ipsam ut perferendis vel minus voluptatum molestias quas odit labore cupiditate nulla officia asperiores, necessitatibus sed laudantium maxime magnam voluptatem excepturi at! Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Tempora
+            quam autem est corrupti quis numquam placeat mollitia alias dolore sit veniam eos explicabo animi,<br> harum quibusdam porro deleniti exercitationem tempore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Aspernatur dolor laudantium
+            incidunt voluptatem, nisi dolorum repellat, natus accusantium eligendi, delectus sunt aliquid maxime architecto debitis suscipit iure reprehenderit porro excepturi.</p>
+        <p id="details">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ab eligendi vel eveniet totam, eius et commodi molestiae.  <br> Quibusdam corrupti tempora ratione ea non ducimus itaque, ut consectetur laboriosam. Aperiam?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. <br> Enim rerum fugiat, pariatur deleniti dolorem inventore assumenda voluptatem reiciendis ipsam molestias fugit aspernatur accusamus fuga optio itaque? Magnam accusantium quaerat Lorem, <br> ipsum dolor sit amet consectetur adipisicing
+            elit. <br> Dignissimos deleniti ad corrupti obcaecati, quibusdam laboriosam reprehenderit expedita laudantium sapiente adipisci necessitatibus consectetur, <br> exercitationem, iusto magnam! Optio quidem cum dignissimos esse!Loremlor Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Provident consectetur id non consequuntur velit adipisci. <br> Voluptate magni nemo voluptatem quidem nisi, eius id vel soluta beatae temporibus! Hic, porro neque Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. <br> Ipsam ut perferendis vel minus voluptatum molestias quas odit labore cupiditate nulla officia asperiores, necessitatibus sed laudantium maxime magnam voluptatem excepturi at! Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Tempora
+            quam autem est corrupti quis numquam placeat mollitia alias dolore sit veniam eos explicabo animi,<br> harum quibusdam porro deleniti exercitationem tempore! Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Aspernatur dolor laudantium
             incidunt voluptatem, nisi dolorum repellat, natus accusantium eligendi, delectus sunt aliquid maxime architecto debitis suscipit iure reprehenderit porro excepturi.</p>
     </div>
-    <br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br>
-    <hr style="width:80% ;">
+    <hr style="width:100% ;">
     <br>
     <h1 style="text-align:center ;">Reviews</h1>
     <div class="Reviews">
@@ -94,9 +135,11 @@
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
-
+<br><br><br>
             <h4>linor k.</h4>
-            <h1>08\04\2022</h1>
+            <br><br>
+            <h2>08\04\2022</h2>
+            <br><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe consequuntur veniam laboriosam incidunt deleniti impedit molestias, aspernatur fugiat suscipit? Suscipit, sequi voluptatem?</p>
         </div>
         <div id="cardREVIEWS">
@@ -106,9 +149,11 @@
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-
+            <br><br><br>
             <h4>Ron k.</h4>
-            <h1>19\10\2022</h1>
+            <br><br>
+            <h2>19\10\2022</h2>
+            <br><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe consequuntur veniam laboriosam incidunt deleniti impedit molestias, aspernatur fugiat suscipit? Suscipit, sequi voluptatem?</p>
         </div>
         <div id="cardREVIEWS">
@@ -118,9 +163,11 @@
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
-
+            <br><br><br>
             <h4>oz f.</h4>
-            <h1>03\05\2022</h1>
+            <br><br>
+            <h2>03\05\2022</h2>
+            <br><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe consequuntur veniam laboriosam incidunt deleniti impedit molestias, aspernatur fugiat suscipit? Suscipit, sequi voluptatem?</p>
         </div>
     </div>
