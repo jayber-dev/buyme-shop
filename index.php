@@ -11,6 +11,10 @@
         include './views/product.php';
     });
 
+    $router->get('login', function() {
+        include './views/signup-form.php'; 
+    });
+
     $router->run();
 
     
