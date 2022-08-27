@@ -7,6 +7,10 @@
        include './views/main.php';
     });
 
+    $router->get('/product', function() {
+        include './views/product.php';
+    });
+
     $router->run();
 
     
