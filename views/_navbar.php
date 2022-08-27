@@ -10,8 +10,8 @@
             <li class="item"><a href="#">Gadgets</a></li>
             <li class="item"><a href="#">Vehicles</a></li>
             
-            <li class="item button"><a href="#">Log In</a></li>
-            <li class="item button secondary"><a href="signup-form">Sign Up</a></li>
+            <li class="item button"><a href="views/signup-form.php#">Log In</a></li>
+            <li class="item button secondary"><a href="views/signup-form.php#">Sign Up</a></li>
             <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
     </ul>
 
