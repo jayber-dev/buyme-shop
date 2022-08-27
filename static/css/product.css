@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-rows: 1fr;
     font-family: "Raleway", sans-serif;
-    background-color: #01e37d3a;
+    background-color: white;
 }
 
 h3 {
@@ -37,12 +37,17 @@ img {
 
 /* ----- Product Section ----- */
 
+/* TODO: add margin to product div */
+
 .product {
     display: grid;
     grid-template-columns: 0.9fr 1fr;
-    margin: auto;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2.5em 0;
     min-width: 600px;
+    box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
     background-color: white;
     border-radius: 5px;
 }
@@ -67,8 +72,9 @@ img {
 
 .photo-main {
     border-radius: 6px 6px 0 0;
-    background-color: #9be010;
-    background: radial-gradient(#e5f89e, #96e001);
+    background-color: white;
+    border-bottom: 1px solid #e4e4e4;
+    /* background: radial-gradient(#e5f89e, #96e001); */
     .controls {
         display: flex;
         justify-content: space-between;
