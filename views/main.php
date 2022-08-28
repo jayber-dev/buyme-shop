@@ -21,16 +21,16 @@
 <body>
     <div class="search-and-navbar">
         <?php
-            include './views/_navbar.php';
+            include './views/partials/_navbar.php';
         ?>
 
         <?php
-            include './views/_search.php'
+            include './views/partials/_search.php'
         ?>       
     </div>
     
     <?php
-            include './views/_carousel.php'
+            include './views/partials/_carousel.php'
         ?>
     
     <div class="categories">
@@ -39,7 +39,7 @@
     
        
     <?php
-        include './views/_footer.php'
+        include './views/partials/_footer.php'
     ?> 
 
 
