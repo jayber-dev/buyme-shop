@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/static/css/navbar.css">
     <link rel="stylesheet" href="/static/css/index.css">
     <link rel="stylesheet" href="/static/css/search-bar.css">
-    <link rel="stylesheet" href="/static/css/product.css">
+    <link rel="stylesheet" href="/static/css/product1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../static/js/navbar.js" defer></script>
     

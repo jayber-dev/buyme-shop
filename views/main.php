@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/static/css/navbar.css">
     <link rel="stylesheet" href="/static/css/footer.css">
     <link rel="stylesheet" href="/static/css/search-bar.css">
+    <link rel="stylesheet" href="/static//css/carousel.css">
     
     
     <title>Buyme</title>
@@ -25,12 +26,13 @@
 
         <?php
             include './views/_search.php'
-        ?>  
+        ?>       
     </div>
     
-    <div class="carusel">
-        <h1 class="h1">Carusel</h1>
-    </div>
+    <?php
+            include './views/_carousel.php'
+        ?>
+    
     <div class="categories">
         
     </div>
