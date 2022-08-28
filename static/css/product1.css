@@ -91,6 +91,8 @@ img {
   justify-content: space-around;
 }
 .photo-album li {
+  cursor: pointer;
+  list-style: none;
   float: left;
   width: 55px;
   height: 55px;
@@ -223,116 +225,114 @@ footer a:hover {
   border-radius: 20% 20% 0 0;
   overflow: hidden;
 }
-
 /* 
-@media all and (min-width:700px) {
-    input {
-        width: 60px;
-    }
-    .product {
-        margin-bottom: 100px;
-        margin-top: 100px;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        height: 540px;
-        width: 65%;
-        border: 2px solid black;
-        border-radius: 15%;
-    }
-    .Reviews {
-        padding-left: 300px;
-    }
-    p {
-        font-size: 22px;
-    }
-    #cardREVIEWS {
-        width: 400px;
-        height: 350px;
-        border: 1px solid;
-        float: left;
-        background-color: #0f0bf4b5;
-        margin-right: 50px;
-    }
-    img {
-        max-width: 350px;
-        margin: 90px;
-    }
-    .checked {
-        color: orange;
-    }
-    .product-image {
-        width: 100%;
-    }
-    select {
-        font-size: 24px;
-        background-color: #0f0bf49b;
-        padding: 5px;
-    }
-    .item-info {
-        width: 55%;
-        margin-left: 20px;
-        height: 363px;
-    }
-    .item-details {
-        padding-left: 10px;
-    }
+@media all and (min-width: 1200px) {
+  input {
+    width: 60px;
+  }
+  .product {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 540px;
+    width: 65%;
+    border: 2px solid black;
+    border-radius: 15%;
+  }
+  .Reviews {
+    padding-left: 300px;
+  }
+  p {
+    font-size: 22px;
+  }
+  #cardREVIEWS {
+    width: 400px;
+    height: 350px;
+    border: 1px solid;
+    float: left;
+    background-color: rgba(15, 11, 244, 0.7098039216);
+    margin-right: 50px;
+  }
+  img {
+    max-width: 350px;
+    margin: 90px;
+  }
+  .checked {
+    color: orange;
+  }
+  .product-image {
+    width: 100%;
+  }
+  select {
+    font-size: 24px;
+    background-color: rgba(15, 11, 244, 0.6078431373);
+    padding: 5px;
+  }
+  .item-info {
+    width: 55%;
+    margin-left: 20px;
+    height: 363px;
+  }
+  .item-details {
+    padding-left: 10px;
+  }
+}
+@media all and (min-width: 1380px) {
+  input {
+    width: 60px;
+  }
+  .product {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 540px;
+    width: 65%;
+    border: 2px solid black;
+    border-radius: 15%;
+  }
+  .Reviews {
+    padding-left: 300px;
+  }
+  p {
+    font-size: 22px;
+  }
+  #cardREVIEWS {
+    width: 400px;
+    height: 350px;
+    border: 1px solid;
+    float: left;
+    background-color: rgba(15, 11, 244, 0.7098039216);
+    margin-right: 50px;
+  }
+  img {
+    border: 2px solid #0f0bf4;
+    box-shadow: 0 0 5px 1px #0f0bf4;
+    max-width: 450px;
+    margin: 90px;
+  }
+  .checked {
+    color: orange;
+  }
+  .product-image {
+    width: 100%;
+  }
+  select {
+    font-size: 24px;
+    background-color: rgba(15, 11, 244, 0.6078431373);
+    padding: 5px;
+  }
+  .item-info {
+    width: 55%;
+    margin-left: 20px;
+    height: 363px;
+  }
+  .item-details {
+    padding-left: 10px;
+  }
 }
 
-@media all and (min-width:1380px) {
-    input {
-        width: 60px;
-    }
-    .product {
-        margin-bottom: 100px;
-        margin-top: 100px;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        height: 540px;
-        width: 65%;
-        border: 2px solid black;
-        border-radius: 15%;
-    }
-    .Reviews {
-        padding-left: 300px;
-    }
-    p {
-        font-size: 22px;
-    }
-    #cardREVIEWS {
-        width: 400px;
-        height: 350px;
-        border: 1px solid;
-        float: left;
-        background-color: #0f0bf4b5;
-        margin-right: 50px;
-    }
-    img {
-        border: 2px solid #0f0bf4;
-        box-shadow: 0 0 5px 1px #0f0bf4;
-        max-width: 450px;
-        margin: 90px;
-    }
-    .checked {
-        color: orange;
-    }
-    .product-image {
-        width: 100%;
-    }
-    select {
-        font-size: 24px;
-        background-color: #0f0bf49b;
-        padding: 5px;
-    }
-    .item-info {
-        width: 55%;
-        margin-left: 20px;
-        height: 363px;
-    }
-    .item-details {
-        padding-left: 10px;
-    }
-} */
-
-/*# sourceMappingURL=product1.css.map */
+# sourceMappingURL=product1.css.map */

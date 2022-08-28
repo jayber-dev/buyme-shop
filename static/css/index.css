@@ -6,8 +6,7 @@
 } 
 
 body {
-    margin:0px;
-    
+    margin:0px; 
     background-repeat: no-repeat;
 }
 
@@ -17,10 +16,7 @@ body {
     scrollbar-color: red;
 }
 
-.carusel {
-    background-color: white;
-    height: 60vh; 
-}
+
 
 .h1 {
     text-align: center;
@@ -36,6 +32,7 @@ body {
     align-content: stretch;
     align-items: stretch;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .category {

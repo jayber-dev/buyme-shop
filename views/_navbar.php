@@ -2,7 +2,7 @@
 <nav>
 
     <ul class="menu">
-            <li class="logo"><a href="#">online shop</a></li>
+            <li class="logo"><a href="/">online shop</a></li>
             <li class="item"><a href="index.php">Home</a></li>
             <li class="item"><a href="#">Electronic</a></li>
             <li class="item"><a href="#">Clothing</a></li>
