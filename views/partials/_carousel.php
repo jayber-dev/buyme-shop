@@ -4,7 +4,7 @@
         <a href="">
             
         <svg class="search-button-svg">
-            <image href="static\svg\left-long-solid.svg" class="search-button-svg"></image>
+            <image href="static\svg\arrow_left.svg" class="search-button-svg"></image>
         </svg>
         </a>
         
@@ -20,12 +20,12 @@
             </div>
             
             <div class="carousel-right-side">
-
+                sdkjffbfjk
             </div>
         </div>
         <a href="">
         <svg class="search-button-svg">
-            <image href="static\svg\right-long-solid.svg" class="search-button-svg"></image>
+            <image href="static\svg\arrow_right.svg" class="search-button-svg"></image>
         </svg>
         </a>
     </div>

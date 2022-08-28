@@ -14,11 +14,11 @@
 <body>
    
         <!-- <?php
-            include './views/_navbar.php';
+            include './views/partials/_navbar.php';
         ?>
 
         <?php
-            include './views/_search.php'
+            include './views/partials/_search.php'
         ?>    -->
 
 <div class="container right-panel-active">
@@ -66,7 +66,7 @@
     </div>
 
     <!-- <?php
-        include './views/_footer.php'
+        include './views/partials/_footer.php'
     ?>  -->
 
 </body>

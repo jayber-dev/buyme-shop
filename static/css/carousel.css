@@ -70,3 +70,29 @@
     height: 100%;
     /* background-color: aquamarine; */
 }
+
+@media screen and (max-width:700px)  {
+    .carusel {
+        display: block;
+    }
+
+    .carousel-wrapper {
+        display: block;
+    }
+
+    .carousel-container {
+        background-color: #00c6cf;
+        display: grid;
+        grid-area: 1fr 1fr;
+    }
+
+    .carousel-left-side {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .carousel-right-side {
+        width: 100vw;
+        height: 50vh;
+    }
+}

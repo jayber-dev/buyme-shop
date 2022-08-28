@@ -16,10 +16,10 @@
 </head>
 <body>
     <?php
-        include './views/_navbar.php';
+        include './views/partials/_navbar.php';
     ?>
     <?php
-        include './views/_search.php';
+        include './views/partials/_search.php';
     ?>
 
 <section class="product">
@@ -180,7 +180,7 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <?php
-        include './_footer.php';
+        include './views/partials/_footer.php';
     ?>
 </body>
 </html>
