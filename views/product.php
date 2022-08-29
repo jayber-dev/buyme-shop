@@ -56,6 +56,8 @@
 			</ul>
 		</div>
 		<button class="buy--btn">ADD TO CART</button>
+		<button class="buy--btn">ADD TO CART</button>
+		<button class="Add--btn">ADD TO WATCHLIST</button>
 	</div>
 </section>
 <br><br><br><br><br><br><br><br><br><br>
