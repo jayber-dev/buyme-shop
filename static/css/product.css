@@ -143,14 +143,13 @@
     /* ///////////////////////////cardREVIEWS///////////////////////////// */
     
     #cardREVIEWS {
-        display: grid;
-        grid-template-rows: auto auto auto;
-        background-color: #324B4c;
+        float: right;
         padding: 10px;
+        margin-right: 290px
     }
     
     #cardREVIEWS>div {
-        width: 350px;
+        width: 300px;
         background-color: rgba(255, 255, 255, 0.8);
         border: 1px solid rgba(0, 0, 0, 0.8);
         padding: 20px;

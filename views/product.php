@@ -16,7 +16,7 @@
     <?php
         include './_navbar.php';
     ?>
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 <section class="product">
 	<div class="product__photo">
 		<div class="photo-container">
@@ -63,6 +63,7 @@
 </div>
     <br><br><br><br><br>
     <hr style="width:100% ;">
+    <br><br><br><br>
     <div>
         <h1 style="text-align:center ;">item details</h1>
         <br><br><br><br><br>
@@ -119,8 +120,9 @@
     <br><br><br><br><br>
     <br><br>
     <hr style="width:100% ;">
-    <br>
+    <br><br><br><br>
     <h1 style="text-align:center ;">Reviews</h1>
+    <br>
     <div class="Reviews">
 
         <div id="cardREVIEWS">
@@ -131,13 +133,13 @@
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
-            <br><br><br>
+            <br><br>
 
             <h4>linor k.</h4>
-            <br><br>
+            <br>
             <h4>08\04\2022</h4>
-            <br><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe consequuntur veniam laboriosam incidunt deleniti impedit molestias, aspernatur fugiat suscipit? Suscipit, sequi voluptatem?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe </p>
             </div>
         </div>
         <div id="cardREVIEWS">
@@ -148,12 +150,12 @@
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <br><br><br>
+            <br><br>
             <h4>Ron k.</h4>
-            <br><br>
+            <br>
             <h4>19\10\2022</h4>
-            <br><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe consequuntur veniam laboriosam incidunt deleniti impedit molestias, aspernatur fugiat suscipit? Suscipit, sequi voluptatem?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe </p>
             </div>
         </div>
         <div id="cardREVIEWS">
@@ -164,12 +166,61 @@
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
-            <br><br><br>
+            <br><br>
             <h4>oz f.</h4>
-            <br><br>
+            <br>
             <h4>03\05\2022</h4>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe ?</p>
+            </div>
+        </div>
+        <div id="cardREVIEWS">
+            <div>
+            <br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
             <br><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe consequuntur veniam laboriosam incidunt deleniti impedit molestias, aspernatur fugiat suscipit? Suscipit, sequi voluptatem?</p>
+
+            <h4>linor k.</h4>
+            <br>
+            <h4>08\04\2022</h4>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe </p>
+            </div>
+        </div>
+        <div id="cardREVIEWS">
+            <div>
+            <br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <br><br>
+            <h4>Ron k.</h4>
+            <br>
+            <h4>19\10\2022</h4>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe </p>
+            </div>
+        </div>
+        <div id="cardREVIEWS">
+            <div>
+            <br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <br><br>
+            <h4>oz f.</h4>
+            <br>
+            <h4>03\05\2022</h4>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe ?</p>
             </div>
         </div>
     </div>
