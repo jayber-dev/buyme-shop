@@ -21,6 +21,50 @@
     <?php
         include './views/partials/_search.php';
     ?>
+<br><br><br><br><br><br><br><br><br><br>
+<section class="product">
+	<div class="product__photo">
+		<div class="photo-container">
+			<div class="photo-main">
+				<img src="https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png" alt="green apple slice">
+			</div>
+			
+		</div>
+	</div>
+	<div class="product__info">
+		<div class="title">
+			<h1>Delicious Apples</h1><br>
+			<span>ID: 45999</span>
+		</div>
+		<div class="price">
+			$ <span>7.93</span>
+		</div>
+		<div class="variant">
+			<h3>SELECT A COLOR</h3><br>
+			<ul>
+				<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="green apple"></li>
+				<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="yellow apple"></li>
+				<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="orange apple"></li>
+				<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="red apple"></li>
+			</ul>
+		</div>
+		<div class="description">
+			<h3>BENEFITS</h3><br>
+			<ul>
+				<li>Apples are nutricious</li>
+                <br>
+				<li>Apples may be good for weight loss</li>
+                <br>
+				<li>Apples may be good for bone health</li>
+                <br>
+				<li>They're linked to a lowest risk of diabetes</li>
+			</ul>
+		</div>
+		<button class="buy--btn">ADD TO CART</button>
+		<button class="Add--btn">ADD TO WATCHL</button>
+	</div>
+</section>
+<br><br><br><br><br><br><br><br><br><br>
 
 <section class="product">
 	<div class="product__photo">
@@ -131,9 +175,11 @@
     <hr style="width:100% ;">
     <br>
     <h1 style="text-align:center ;">Reviews</h1>
+    <br>
     <div class="Reviews">
 
         <div id="cardREVIEWS">
+            <div>
             <br>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -148,6 +194,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe consequuntur veniam laboriosam incidunt deleniti impedit molestias, aspernatur fugiat suscipit? Suscipit, sequi voluptatem?</p>
         </div>
         <div id="cardREVIEWS">
+            <div>
             <br>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
@@ -162,6 +209,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum itaque praesentium id architecto rem minus saepe consequuntur veniam laboriosam incidunt deleniti impedit molestias, aspernatur fugiat suscipit? Suscipit, sequi voluptatem?</p>
         </div>
         <div id="cardREVIEWS">
+            <div>
             <br>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
